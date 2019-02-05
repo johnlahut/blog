@@ -3,7 +3,7 @@ layout: post
 title:  "My Django Mess"
 date:   2019-01-26
 categories: general
-permalink: :year/first-post
+permalink: /:year/first-post/
 ---
 
 A lot of my past and current projects at my company revolve around migrating old VBA Excel macros (whose only job is to validate data) to more dynamic solutions. I have achieved this by using Python and a combination of great libraries, particularly `openpyxl`, `xlwings`, and `cx_oracle`.

@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: home
 ---
 
-
+<!--
 <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">
         {{site.posts.first.title }}
@@ -14,7 +14,8 @@ layout: default
 </header>
 
 <div class="post-content e-content" itemprop="articleBody">
+    # {{ site.posts.first.excerpt | truncatewords: 400 }}
     {{ site.posts.first.content | truncatewords: 400 }}
     {%- assign post = site.posts.first.id -%}
     <p><a href="{{ site.posts.first.url }}">Continue...</a></p>
-</div>
+</div> -->
