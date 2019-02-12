@@ -28,7 +28,7 @@ Before I start a new project, I try and write some really high level psudo-code.
 keep things in scope — I have a tendancy to want to do everything in one program. This is what I had
 on my iPad before starting the project:
 
-![iPad Image](../assets/img/scrapy-1.png)
+![iPad Image]({{ site.baseurl  }}/assets/img/scrapy-1.png)
 
 Seems simple enough, let's get to coding.
 
